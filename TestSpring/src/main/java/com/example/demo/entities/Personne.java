@@ -24,6 +24,8 @@ public class Personne implements Serializable {
     private Long id;
     
     private String name;
+    
+    private String pseudo;
 
     public Long getId() {
         return id;
